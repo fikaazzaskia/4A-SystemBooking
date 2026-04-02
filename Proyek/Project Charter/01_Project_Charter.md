@@ -66,6 +66,24 @@ Banyak pelaku UMKM di bidang jasa (kafe, laundry, barbershop) masih mengandalkan
 
 ---
 
+'''mermaid
+gantt
+    title Timeline Proyek Platform Booking UMKM
+    dateFormat  YYYY-MM-DD
+    section Inisiasi
+    Project Charter & Tim       :done,    des1, 2024-04-01, 2024-04-07
+    section Analisis
+    SRS & Analisis Kebutuhan    :active,  des2, 2024-04-08, 2024-04-21
+    section Desain
+    UI/UX & Database Design     :         des3, 2024-04-22, 2024-05-05
+    section Implementasi
+    Coding Frontend & Backend   :         des4, 2024-05-06, 2024-06-09
+    section Finalisasi
+    Testing & Bug Fixing        :         des5, 2024-06-10, 2024-06-23
+    Deployment & Presentasi     :         des6, 2024-06-24, 2024-06-30
+
+---
+
 **Disetujui Oleh:** *(Project Manager)*
 
 **Fadwa Adly Difarry**
