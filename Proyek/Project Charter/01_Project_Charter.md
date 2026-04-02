@@ -66,8 +66,7 @@ Banyak pelaku UMKM di bidang jasa (kafe, laundry, barbershop) masih mengandalkan
 
 ---
 
-'''mermaid
-(graph TD
+graph TD(
     title Timeline Proyek Platform Booking UMKM
     dateFormat  YYYY-MM-DD
     section Inisiasi
