@@ -66,7 +66,7 @@ Banyak pelaku UMKM di bidang jasa (kafe, laundry, barbershop) masih mengandalkan
 
 ---
 
-graph TD(
+graph TD
     title Timeline Proyek Platform Booking UMKM
     dateFormat  YYYY-MM-DD
     section Inisiasi
@@ -80,7 +80,7 @@ graph TD(
     section Finalisasi
     Testing & Bug Fixing        :         des5, 2024-06-10, 2024-06-23
     Deployment & Presentasi     :         des6, 2024-06-24, 2024-06-30
-)
+
 ---
 
 **Disetujui Oleh:** *(Project Manager)*
