@@ -66,28 +66,6 @@ Banyak pelaku UMKM di bidang jasa (kafe, laundry, barbershop) masih mengandalkan
 
 ---
 
-graph TD
-    A[Platform Booking UMKM] --> B[1. Manajemen Proyek]
-    A --> C[2. Analisis & Desain]
-    A --> D[3. Pengembangan/Coding]
-    A --> E[4. Testing & Rilis]
-    
-    B --> B1[Project Charter]
-    B --> B2[PMP & Penjadwalan]
-    
-    C --> C1[SRS Document]
-    C --> C2[UI/UX Design]
-    C --> C3[Database ERD]
-    
-    D --> D1[Modul Auth]
-    D --> D2[Modul Booking]
-    D --> D3[Dashboard Mitra]
-    
-    E --> E1[Blackbox Testing]
-    E --> E2[Deployment ke Vercel]
-
----
-
 **Disetujui Oleh:** *(Project Manager)*
 
 **Fadwa Adly Difarry**
