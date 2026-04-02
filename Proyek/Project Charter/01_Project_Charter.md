@@ -67,19 +67,24 @@ Banyak pelaku UMKM di bidang jasa (kafe, laundry, barbershop) masih mengandalkan
 ---
 
 graph TD
-    title Timeline Proyek Platform Booking UMKM
-    dateFormat  YYYY-MM-DD
-    section Inisiasi
-    Project Charter & Tim       :done,    des1, 2024-04-01, 2024-04-07
-    section Analisis
-    SRS & Analisis Kebutuhan    :active,  des2, 2024-04-08, 2024-04-21
-    section Desain
-    UI/UX & Database Design     :         des3, 2024-04-22, 2024-05-05
-    section Implementasi
-    Coding Frontend & Backend   :         des4, 2024-05-06, 2024-06-09
-    section Finalisasi
-    Testing & Bug Fixing        :         des5, 2024-06-10, 2024-06-23
-    Deployment & Presentasi     :         des6, 2024-06-24, 2024-06-30
+    A[Platform Booking UMKM] --> B[1. Manajemen Proyek]
+    A --> C[2. Analisis & Desain]
+    A --> D[3. Pengembangan/Coding]
+    A --> E[4. Testing & Rilis]
+    
+    B --> B1[Project Charter]
+    B --> B2[PMP & Penjadwalan]
+    
+    C --> C1[SRS Document]
+    C --> C2[UI/UX Design]
+    C --> C3[Database ERD]
+    
+    D --> D1[Modul Auth]
+    D --> D2[Modul Booking]
+    D --> D3[Dashboard Mitra]
+    
+    E --> E1[Blackbox Testing]
+    E --> E2[Deployment ke Vercel]
 
 ---
 
